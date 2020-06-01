@@ -23,7 +23,8 @@
         "callToActionMode": "button",
         "callToActionText": "Explore",
         "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
+        "textAlignment": "center",
+        "blockClass": "vintage"
       }
     },
 
@@ -35,7 +36,8 @@
           "callToActionMode": "link",
           "callToActionText": "Go to Collection",
           "textPosition": "left",
-          "textAlignment": "center"
+          "textAlignment": "center",
+          "blockClass": "metal"
       }
   }
 }
