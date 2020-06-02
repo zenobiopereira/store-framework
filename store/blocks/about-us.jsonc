@@ -60,7 +60,7 @@
   "tab-list.item#home1": {
     "props": {
       "tabId": "about",
-      "label": "About",
+      "label": "ABOUT",
       "defaultActiveTab": true
     }
   },
