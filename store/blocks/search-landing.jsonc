@@ -1,0 +1,32 @@
+{
+  "store.custom#landing": {
+    "blocks": ["image#landingbanner", "search-result-layout.customQuery"]
+  },
+
+  "search-result-layout.customQuery": {
+    "blocks": ["search-result-layout.desktop"],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 8,
+        "hideUnavailableItems": true,
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft"
+      }
+    }
+  },
+
+  "search-result-layout.desktop": {
+    "children": ["flex-layout.row#result"],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://en.meming.world/images/en/thumb/a/af/Surprised_Pikachu_3D.jpg/300px-Surprised_Pikachu_3D.jpg"
+    }
+  }
+}

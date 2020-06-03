@@ -1,10 +1,6 @@
 {
   "store.product": {
-    "children": [
-      "breadcrumb",
-      "flex-layout.row#main",
-      "shelf.relatedProducts"
-      ]
+    "children": ["breadcrumb", "flex-layout.row#main", "shelf.relatedProducts"]
   },
 
   "flex-layout.row#main": {
@@ -64,5 +60,4 @@
       "showVariationsErrorMessage": "true"
     }
   }
-
 }
